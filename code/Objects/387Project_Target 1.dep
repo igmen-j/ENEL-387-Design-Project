@@ -1,0 +1,130 @@
+Dependencies for Project '387Project', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\main.c)(0x5E8EDF79)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_Target_1-ID:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD_VL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (clock.h)(0x5E8E7DE9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E8E7DEA)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+I (init.h)(0x5E8E7DE9)
+I (gpio.h)(0x5E8E7DE9)
+I (motor.h)(0x5E8F4E88)
+I (line.h)(0x5E8F4E88)
+I (LCD.h)(0x5E8E7DE9)
+I (obstacle.h)(0x5E8E7DE9)
+I (lineCounter.h)(0x5E8E8B2D)
+F (.\clock.c)(0x5E8E7DE9)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_Target_1-ID:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD_VL-o .\objects\clock.o --omf_browse .\objects\clock.crf --depend .\objects\clock.d)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E8E7DEA)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D265596)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+I (clock.h)(0x5E8E7DE9)
+F (.\clock.h)(0x5E8E7DE9)()
+F (.\gpio.c)(0x5E8E7DE9)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_Target_1-ID:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD_VL-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (gpio.h)(0x5E8E7DE9)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E8E7DEA)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D265596)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+F (.\gpio.h)(0x5E8E7DE9)()
+F (.\motor.c)(0x5E8F6E4B)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_Target_1-ID:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD_VL-o .\objects\motor.o --omf_browse .\objects\motor.crf --depend .\objects\motor.d)
+I (motor.h)(0x5E8F4E88)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E8E7DEA)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D265596)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+I (clock.h)(0x5E8E7DE9)
+I (line.h)(0x5E8F4E88)
+I (LCD.h)(0x5E8E7DE9)
+I (obstacle.h)(0x5E8E7DE9)
+F (.\motor.h)(0x5E8F4E88)()
+F (.\obstacle.c)(0x5E8E7DE9)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_Target_1-ID:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD_VL-o .\objects\obstacle.o --omf_browse .\objects\obstacle.crf --depend .\objects\obstacle.d)
+I (obstacle.h)(0x5E8E7DE9)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E8E7DEA)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D265596)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+I (clock.h)(0x5E8E7DE9)
+I (LCD.h)(0x5E8E7DE9)
+F (.\obstacle.h)(0x5E8E7DE9)()
+F (.\init.h)(0x5E8E7DE9)()
+F (.\init.c)(0x5E8EB8E3)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_Target_1-ID:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD_VL-o .\objects\init.o --omf_browse .\objects\init.crf --depend .\objects\init.d)
+I (init.h)(0x5E8E7DE9)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E8E7DEA)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D265596)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+F (.\line.c)(0x5E8F620C)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_Target_1-ID:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD_VL-o .\objects\line.o --omf_browse .\objects\line.crf --depend .\objects\line.d)
+I (line.h)(0x5E8F4E88)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E8E7DEA)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D265596)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+I (LCD.h)(0x5E8E7DE9)
+F (.\line.h)(0x5E8F4E88)()
+F (.\LCD.c)(0x5E8E7DE9)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_Target_1-ID:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD_VL-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (LCD.h)(0x5E8E7DE9)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E8E7DEA)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D265596)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+F (.\LCD.h)(0x5E8E7DE9)()
+F (.\lineCounter.c)(0x5E8F6C7C)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_Target_1-ID:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD_VL-o .\objects\linecounter.o --omf_browse .\objects\linecounter.crf --depend .\objects\linecounter.d)
+I (lineCounter.h)(0x5E8E8B2D)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E8E7DEA)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D265596)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
+I (clock.h)(0x5E8E7DE9)
+I (line.h)(0x5E8F4E88)
+I (LCD.h)(0x5E8E7DE9)
+I (motor.h)(0x5E8F4E88)
+I (obstacle.h)(0x5E8E7DE9)
+F (.\lineCounter.h)(0x5E8E8B2D)()
+F (RTE\Device\STM32F100RB\RTE_Device.h)(0x5E8E7DEA)()
+F (RTE\Device\STM32F100RB\startup_stm32f10x_md_vl.s)(0x5E8E7DEA)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F100RB-I.\RTE\_Target_1-ID:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD_VL SETA 1"--list .\listings\startup_stm32f10x_md_vl.lst --xref -o .\objects\startup_stm32f10x_md_vl.o --depend .\objects\startup_stm32f10x_md_vl.d)
+F (RTE\Device\STM32F100RB\system_stm32f10x.c)(0x5E8E7DEA)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_Target_1-ID:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD_VL-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825FD4C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E8E7DEA)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D265596)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D265596)
+I (D:\MicrosoftSoftwares\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825FD4C)
